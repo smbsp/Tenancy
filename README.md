@@ -5,9 +5,9 @@ Product Installation & Demo: https://drive.google.com/file/d/1p-czZieCye32TF8j7j
 
 Personas:
 
-Government Admin - Owner of the Smart Contract - Address: 0x84af7bbDc9AFA7b97a11aC0a9ad0E54e2A704C01 - Account 1
-Landlord - Alice - Address: 0x493daAF83A5FAfc3adE54418941B83233320852C - Account 2
-Tenant - Bob - Address: 0x21D30B7B2Dd00879fB7f1F264384F60f0F118A6A - Account 3
+1. Government Admin - Owner of the Smart Contract - Address: 0x84af7bbDc9AFA7b97a11aC0a9ad0E54e2A704C01 - Account 1
+2. Landlord - Alice - Address: 0x493daAF83A5FAfc3adE54418941B83233320852C - Account 2
+3. Tenant - Bob - Address: 0x21D30B7B2Dd00879fB7f1F264384F60f0F118A6A - Account 3
 
 Key Features:
 
@@ -17,17 +17,17 @@ Key Features:
 
 Technical Stack:
 
-Front End - HTML, CSS, Javascript
-Back End - Node.js
-Blockchain Platform - Ethereum
-Smart Contracts - Solidity (Deployed using remix.ethereum.org at Contract Address: 0x4d408908e19f15675ab82230eb647b49fc7060b2)
-Blockchain Explorer: Etherscan
-Blockchain Network: Kovan (Public Testnet)
-Consensus: Proof of Authority
-Wallet - Metamask Chrome Extension
-IDE - Visual Studio Code
-OS - Ubuntu 19.10
-Repository - GitHub
+1. Front End - HTML, CSS, Javascript
+2. Back End - Node.js
+3. Blockchain Platform - Ethereum
+4. Smart Contracts - Solidity (Deployed using remix.ethereum.org at Contract Address: 0x4d408908e19f15675ab82230eb647b49fc7060b2)
+5. Blockchain Explorer: Etherscan
+6. Blockchain Network: Kovan (Public Testnet)
+7. Consensus: Proof of Authority
+8. Wallet - Metamask Chrome Extension
+9. IDE - Visual Studio Code
+10. OS - Ubuntu 19.10
+11. Repository - GitHub
 
 Steps to locally run the application:
 
@@ -59,8 +59,8 @@ Disclaimer:
 
 References:
 
-https://files.ifi.uzh.ch/CSG/staff/Rafati/Purchase-Rental-APP-SC.pdf
-https://github.com/shankermjj/Rental-Agreement
-https://midasium.herokuapp.com/smart-tenancy
-https://medium.com/@anudishjain/chartercontracts-998050251176
-https://medium.com/@naqvi.jafar91/converting-a-property-rental-paper-contract-into-a-smart-contract-daa054fdf8a7
+1. https://files.ifi.uzh.ch/CSG/staff/Rafati/Purchase-Rental-APP-SC.pdf
+2. https://github.com/shankermjj/Rental-Agreement
+3. https://midasium.herokuapp.com/smart-tenancy
+4. https://medium.com/@anudishjain/chartercontracts-998050251176
+5. https://medium.com/@naqvi.jafar91/converting-a-property-rental-paper-contract-into-a-smart-contract-daa054fdf8a7
