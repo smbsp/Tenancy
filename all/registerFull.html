@@ -1,0 +1,164 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/registerFull.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Anaheim|Abel" rel="stylesheet">
+
+    <!-- W3 school CSS Effects -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <title>Deploy Contract</title>
+
+</head>
+
+<body>
+
+    <div id="ytWidget" align="right"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang=en&widgetTheme=dark&autoMode=false" type="text/javascript"></script>
+
+    <div class="container" align="center">
+
+      <img class="icon" src="extra/icons.jpg" align="center">
+
+      <h1 class="heading w3-animate-opacity" style="color:black"><b>Tenancy for Landlords</b></h1>
+
+      <h2 class="heading2 w3-animate-opacity" style="color:black">Contract Deployment Dashboard</h2>
+      <br>
+
+  </div>
+  <hr>
+  <!------>
+
+<div class="userForm" align="center">
+    <h1 class="heading3" style="color:black"><b>Step - I</b></h1>
+    <h1 class="heading3" style="color:black">Tenant's Information</h1>
+    <div class="alert alert-danger message" id="message1" style="font-weight: bold; display: none;"></div>
+
+    <form style="margin-left: 1rem">
+
+        <input class="formInput form-control" type="text" id="tenantAdd" placeholder="Tenant's Ethereum Address" required>
+        <button type="button" id="registerButton1" class="getStarted">Submit</button>
+
+    </form>
+
+</div>
+
+<hr>
+<!------>
+
+<div class="userForm" align="center">
+
+    <h1 class="heading3" style="color:black"><b>Step - II</b></h1>
+    <h1 class="heading3" style="color:black">Property's Information</h1>
+    <div class="alert alert-danger message" id="message2" style="font-weight: bold; display: none;"></div>
+    <br>
+    <br>
+
+    <form style="margin-left: 1rem;">
+
+        <textarea class="formInput form-control" type="text" id="address" rows="5" placeholder="Complete Address of the Property" required></textarea>
+        <select class="formInput" name="Property Type" id="type">
+        <option value="Residential">Residential Property</option>
+        <option value="Commercial">Commercial Property</option>
+        <option value="Others">Others</option>
+        </select>
+        <p class="textPara" style="color: black; font-weight: bold">Start Date of the Contract</p>
+        <input class="formInput form-control" type="date" id="startDate" required>
+
+        <p class="textPara" style="color: black; font-weight: bold">End Date of the Contract</p>
+
+        <input class="formInput form-control" type="date" id="endDate" required>
+        <input class="formInput form-control" type="number" id="rent" placeholder="Monthly Rent (> 0 and in ₹)" required>
+        <input class="formInput form-control" type="number" id="security" placeholder="Security Deposit (0 if N/A, in ₹)" required>
+        <br>
+        <button type="button" id="registerButton2" class="getStarted">Submit</button>
+
+    </form>
+
+    <br>
+    <br>
+
+</div>
+
+<hr>
+<!------>
+
+<div class="userForm" align="center">
+
+    <br>
+    <br>
+    <br>
+
+    <h1 class="heading3" style="color:black"><b>Step - III</b></h1>
+    <h1 class="heading3" style="color:black">Miscellaneous Information</h1>
+    <br>
+    <div class="alert alert-danger message" id="message3" style="font-weight: bold; display: none;"></div>
+    <br>
+    <br>
+
+    <form style="margin-left: 1rem">
+
+        <input class="formInput form-control" type="text" id="latitude" placeholder="Latitude Coordinate (eg. 28.7041)" required>
+        <input class="formInput form-control" type="text" id="longitude" placeholder="Longitude Coordinate (eg. 77.1025)" required>
+        <input class="formInput form-control" type="number" id="sqFt" placeholder="Square Footage of Property" required>
+        <input class="formInput form-control" type="number" id="rooms" placeholder="Number of Rooms (0 if N/A)" required>
+        <textarea class="formInput form-control" type="text" id="extra" placeholder="Other Terms of Contract, like (Maintenance Fees, Electricity, Insurance, Utilities, Repairs etc)" required rows="8"></textarea>
+        <div class="input-group mb-3" style="width: 80%; text-align: left; font-size: 1.2rem">
+        <div class="custom-file">
+        <input type="file" class="custom-file-input " id="inputGroupFile02" required>
+        </div>
+        </div>
+        <button type="button" id="registerButton3" class="getStarted">Submit</button>
+
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+
+
+
+<hr>
+<!------>
+
+<div class="userForm" align="center">
+
+    <br>
+    <br>
+    <br>
+
+    <h1 class="heading3" style="color:black"><b>Step - IV</b></h1>
+    <h1 class="heading3" style="color:black">Registration Fee Payment</h1>
+    <div class="alert alert-danger message" id="message4" style="font-weight: bold; display: none;"></div>
+
+    <form style="margin-left: 1rem">
+
+        <button type="button" id="contractSign" class="getStarted">Sign the Contract</button>
+         <br>
+        <button type="button" id="registerButton4" class="getStarted">Pay Stamp Duty Fee</button>
+
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="javascript/common.js"></script>
+<script src="javascript/registerFull.js"></script>
+
+</body>
+</html>

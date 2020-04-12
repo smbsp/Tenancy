@@ -1,0 +1,128 @@
+body {
+
+	background-color:rgb(104, 138, 97);
+}
+
+a:hover {
+
+	text-decoration:none;
+    cursor:pointer;
+}
+
+html {
+
+	scroll-behavior: smooth;
+}
+
+.icon {
+	top: -6rem;
+	width: 10rem;
+	margin-top: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.heading {
+	margin-top: -1rem;
+	font-size: 2.5rem;
+	font-family: 'Anaheim', sans-serif;
+
+	color : #485426;
+}
+
+.heading2 {
+	margin-top: -1rem;
+	font-size: 1.5rem;
+	font-family: 'Abel', sans-serif;
+	top:: -0.5rem;
+	margin-top: 1.4rem;
+
+	color: #263854;
+
+	margin-bottom: 2rem;
+}
+
+.getStarted1 {
+
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	padding-left: 1.2rem;
+	padding-right: 1.2rem;
+	top: -3rem;
+	margin-top: -0.5rem;
+
+	width: 18rem;
+
+	border-radius: 1.5rem;
+	border-width: 0.2rem;
+
+	border : none;
+
+	background: #19263a;
+	color : white;
+
+	font-family: 'Anaheim', sans-serif;
+	font-size: 1.3rem;
+}
+
+.getStarted2 {
+
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	padding-left: 1.2rem;
+	padding-right: 1.2rem;
+	top: 10rem;
+	margin-top: -0.5rem;
+
+	width: 18rem;
+
+	border-radius: 1.5rem;
+	border-width: 0.2rem;
+
+	border : none;
+
+	background: #19263a;
+	color : white;
+
+	font-family: 'Anaheim', sans-serif;
+	font-size: 1.3rem;
+}
+
+
+button:hover {
+
+	cursor: pointer;
+}
+
+button:focus {
+
+	outline: 0 !important;
+}
+
+
+.explain2 {
+	margin-top: -0.5rem;
+	background-color: rgb(48, 47, 47);
+}
+
+.explain3 {
+
+	margin-top: -0.5rem;
+	background-color: rgb(48, 47, 47);
+}
+
+.heading3 {
+
+	font-size: 1.8rem;
+	font-family: 'Abel', sans-serif;
+
+	color : white;
+}
+
+.textPara {
+
+	font-size: 1.20rem;
+	font-family: 'Abel', sans-serif;
+
+	color: white;
+}
+
